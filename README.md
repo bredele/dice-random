@@ -5,7 +5,7 @@
  [![Downloads](https://img.shields.io/npm/dm/dice-random.svg)](http://npm-stat.com/charts.html?package=dice-random)
  [![pledge](https://bredele.github.io/contributing-guide/community-pledge.svg)](https://github.com/bredele/contributing-guide/blob/master/guidelines.md)
 
-Unbiased dice number generator. This module generates cryptographically strong random number if possible.
+Unbiased dice number generator (between 1 and 6).
 
 ## Usage
 
@@ -19,6 +19,7 @@ random()
 random(14)
 ```
 
+This module generates cryptographically strong random number if possible.
 
 ## Installation
 
