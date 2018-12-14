@@ -10,7 +10,7 @@
     "node": ">= 8.9.4"
   },
   "scripts": {
-    "test": "npm run test:server && npm run test:browser",
+    "test": "npm run test:server",
     "test:server": "tape test/*.js",
     "test:browser": "browserify test/*.js | tape-run"
   },
