@@ -1,6 +1,6 @@
 {
   "name": "dice-random",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unbiased and correct dice number generator",
   "main": "index.js",
   "directories": {
@@ -10,7 +10,8 @@
     "node": ">= 8.9.4"
   },
   "scripts": {
-    "test": "tape test/*.js",
+    "test": "npm run test:server && npm run test:browser",
+    "test:server": "tape test/*.js",
     "test:browser": "browserify test/*.js | tape-run"
   },
   "repository": {
@@ -29,6 +30,7 @@
   },
   "homepage": "https://github.com/bredele/dice-random#readme",
   "devDependencies": {
+    "browserify": "^16.2.3",
     "tape": "^4.9.1",
     "tape-run": "^5.0.0"
   }
