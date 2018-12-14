@@ -23,5 +23,5 @@ module.exports = (range = 5) => {
   } else {
     nb = (Math.random() * 0x100000000) | 0
   }
-  return Math.abs((nb % range) + 1)
+  return Math.abs(nb % range) + 1
 }
