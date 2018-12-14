@@ -8,7 +8,7 @@ if (typeof window !== 'undefined') {
 }
 
 /**
- * Generate cryptographically strong random number.
+ * Generate cryptographically strong random number if possible.
  *
  * @param {Number?} range
  * @api public
