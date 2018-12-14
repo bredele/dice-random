@@ -7,7 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "tape trst/*.js"
+    "test": "npm run test:server && npm run test:browser",
+    "test:server": "tape test/*.js",
+    "test:browser": "browserify test/*.js | tape-run"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,7 @@
   },
   "homepage": "https://github.com/bredele/dice-random#readme",
   "devDependencies": {
-    "tape": "^4.9.1"
+    "tape": "^4.9.1",
+    "tape-run": "^5.0.0"
   }
 }
