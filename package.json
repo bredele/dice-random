@@ -1,0 +1,30 @@
+{
+  "name": "dice-random",
+  "version": "1.0.0",
+  "description": "Unbiased and correct dice number generator",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape trst/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bredele/dice-random.git"
+  },
+  "keywords": [
+    "random",
+    "number",
+    "dice"
+  ],
+  "author": "Olivier Wietrich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/dice-random/issues"
+  },
+  "homepage": "https://github.com/bredele/dice-random#readme",
+  "devDependencies": {
+    "tape": "^4.9.1"
+  }
+}
